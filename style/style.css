@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    width: 30%;
+
+  }
+
+  .colorSquareContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 5px;
+  }
+
+  .colorSquare {
+    border: solid 1px gray;
+    width: 100px;
+    height: 100px;
+  }
+
+  label {
+    width: 150px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .item input[type=text] {
+    width: 50px;
+  }
+
+  #paragrafe {
+      text-align: center;
+      color: green;
+  }

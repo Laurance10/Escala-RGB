@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho prático - Victor Laurance - Bootcamp Full Stack</title>
+</head>
+
+<body>
+
+    <link rel="stylesheet" href="./style/style.css">
+
+    <p>
+        <h1 id="paragrafe">Trabalho prático - Victor Laurance - Full Stack Bootcamp</h1>
+    </p>
+
+  <div class="container">
+    <div class="item">
+      <label>(R) Vermelho</label>
+      <input class="slider" type="range" step="1" min="0" max="255" id="rColor" />
+      <input type="text" readonly disabled />
+    </div>
+    <div class="item">
+      <label>(G) Verde</label>
+      <input class="slider" type="range" step="1" min="0" max="255" id="gColor" />
+      <input type="text" readonly disabled />
+    </div>
+    <div class="item">
+      <label>(B) Azul</label>
+      <input class="slider" type="range" step="1" min="0" max="255" id="bColor" />
+      <input type="text" readonly disabled />
+    </div>
+  </div>
+  <div class="colorSquareContainer">
+    <div class="colorSquare"></div>
+  </div>
+</body>
+
+</html>
+
+<script src="./js/script.js"></script>
